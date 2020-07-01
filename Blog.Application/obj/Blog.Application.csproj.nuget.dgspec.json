@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.Application\\Blog.Application.csproj": {}
+    "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.Application\\Blog.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.Application\\Blog.Application.csproj": {
+    "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.Application\\Blog.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.Application\\Blog.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.Application\\Blog.Application.csproj",
         "projectName": "Blog.Application",
-        "projectPath": "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.Application\\Blog.Application.csproj",
+        "projectPath": "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.Application\\Blog.Application.csproj",
         "packagesPath": "C:\\Users\\Sasa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.Application\\obj\\",
+        "outputPath": "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

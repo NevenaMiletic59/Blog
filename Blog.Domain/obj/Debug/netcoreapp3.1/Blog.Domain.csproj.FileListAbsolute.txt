@@ -7,3 +7,12 @@ C:\Users\Sasa\source\repos\Blog\Blog.Domain\obj\Debug\netcoreapp3.1\Blog.Domain.
 C:\Users\Sasa\source\repos\Blog\Blog.Domain\obj\Debug\netcoreapp3.1\Blog.Domain.AssemblyInfo.cs
 C:\Users\Sasa\source\repos\Blog\Blog.Domain\obj\Debug\netcoreapp3.1\Blog.Domain.dll
 C:\Users\Sasa\source\repos\Blog\Blog.Domain\obj\Debug\netcoreapp3.1\Blog.Domain.pdb
+C:\Users\Sasa\Desktop\BlogAsp\Blog\Blog.Domain\bin\Debug\netcoreapp3.1\Blog.Domain.deps.json
+C:\Users\Sasa\Desktop\BlogAsp\Blog\Blog.Domain\bin\Debug\netcoreapp3.1\Blog.Domain.dll
+C:\Users\Sasa\Desktop\BlogAsp\Blog\Blog.Domain\bin\Debug\netcoreapp3.1\Blog.Domain.pdb
+C:\Users\Sasa\Desktop\BlogAsp\Blog\Blog.Domain\obj\Debug\netcoreapp3.1\Blog.Domain.csprojAssemblyReference.cache
+C:\Users\Sasa\Desktop\BlogAsp\Blog\Blog.Domain\obj\Debug\netcoreapp3.1\Blog.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Sasa\Desktop\BlogAsp\Blog\Blog.Domain\obj\Debug\netcoreapp3.1\Blog.Domain.AssemblyInfoInputs.cache
+C:\Users\Sasa\Desktop\BlogAsp\Blog\Blog.Domain\obj\Debug\netcoreapp3.1\Blog.Domain.AssemblyInfo.cs
+C:\Users\Sasa\Desktop\BlogAsp\Blog\Blog.Domain\obj\Debug\netcoreapp3.1\Blog.Domain.dll
+C:\Users\Sasa\Desktop\BlogAsp\Blog\Blog.Domain\obj\Debug\netcoreapp3.1\Blog.Domain.pdb

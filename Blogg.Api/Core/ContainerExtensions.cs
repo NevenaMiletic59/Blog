@@ -48,6 +48,11 @@ namespace Blogg.Api.Core
 
             services.AddTransient<CreateUserValidator>();
             services.AddTransient<RegisterUserValidator>();
+            services.AddTransient<CategoryValidator>();
+            services.AddTransient<DeleteCategoryValidator>();
+            services.AddTransient<CreatePictureValidator>();
+            services.AddTransient<DeletePictureValidator>();
+        
 
         }
         public static void AddApplicationActor(this IServiceCollection services)

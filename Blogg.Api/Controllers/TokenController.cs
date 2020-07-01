@@ -21,9 +21,9 @@ namespace Blogg.Api.Controllers
 
         // POST: api/Token
         [HttpPost]
-        public IActionResult Post([FromBody] LoginRequets requets)
+        public IActionResult Post([FromBody] LoginRequets request)
         {
-            var token = manager.MakeToken(requets.Username, requets.Passwrod);
+            var token = manager.MakeToken(request.Username, request.Password);
 
             if (token == null)
             {
@@ -35,7 +35,7 @@ namespace Blogg.Api.Controllers
         public class LoginRequets
         {
             public string Username { get; set; }
-            public string Passwrod { get; set; }
+            public string Password { get; set; }
         }
 
       

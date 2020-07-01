@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.Implementation\\Blog.Implementation.csproj": {}
+    "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.Implementation\\Blog.Implementation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.Application\\Blog.Application.csproj": {
+    "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.Application\\Blog.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.Application\\Blog.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.Application\\Blog.Application.csproj",
         "projectName": "Blog.Application",
-        "projectPath": "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.Application\\Blog.Application.csproj",
+        "projectPath": "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.Application\\Blog.Application.csproj",
         "packagesPath": "C:\\Users\\Sasa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.Application\\obj\\",
+        "outputPath": "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -65,14 +65,14 @@
         }
       }
     },
-    "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.DataAccess\\Blog.DataAccess.csproj": {
+    "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.DataAccess\\Blog.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.DataAccess\\Blog.DataAccess.csproj",
+        "projectUniqueName": "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.DataAccess\\Blog.DataAccess.csproj",
         "projectName": "Blog.DataAccess",
-        "projectPath": "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.DataAccess\\Blog.DataAccess.csproj",
+        "projectPath": "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.DataAccess\\Blog.DataAccess.csproj",
         "packagesPath": "C:\\Users\\Sasa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.DataAccess\\obj\\",
+        "outputPath": "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -91,8 +91,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.Domain\\Blog.Domain.csproj": {
-                "projectPath": "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.Domain\\Blog.Domain.csproj"
+              "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.Domain\\Blog.Domain.csproj": {
+                "projectPath": "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.Domain\\Blog.Domain.csproj"
               }
             }
           }
@@ -146,14 +146,14 @@
         }
       }
     },
-    "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.Domain\\Blog.Domain.csproj": {
+    "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.Domain\\Blog.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.Domain\\Blog.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.Domain\\Blog.Domain.csproj",
         "projectName": "Blog.Domain",
-        "projectPath": "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.Domain\\Blog.Domain.csproj",
+        "projectPath": "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.Domain\\Blog.Domain.csproj",
         "packagesPath": "C:\\Users\\Sasa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -201,14 +201,14 @@
         }
       }
     },
-    "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.Implementation\\Blog.Implementation.csproj": {
+    "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.Implementation\\Blog.Implementation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.Implementation\\Blog.Implementation.csproj",
+        "projectUniqueName": "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.Implementation\\Blog.Implementation.csproj",
         "projectName": "Blog.Implementation",
-        "projectPath": "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.Implementation\\Blog.Implementation.csproj",
+        "projectPath": "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.Implementation\\Blog.Implementation.csproj",
         "packagesPath": "C:\\Users\\Sasa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.Implementation\\obj\\",
+        "outputPath": "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.Implementation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -227,11 +227,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.Application\\Blog.Application.csproj": {
-                "projectPath": "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.Application\\Blog.Application.csproj"
+              "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.Application\\Blog.Application.csproj": {
+                "projectPath": "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.Application\\Blog.Application.csproj"
               },
-              "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.DataAccess\\Blog.DataAccess.csproj": {
-                "projectPath": "C:\\Users\\Sasa\\source\\repos\\Blog\\Blog.DataAccess\\Blog.DataAccess.csproj"
+              "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.DataAccess\\Blog.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.DataAccess\\Blog.DataAccess.csproj"
               }
             }
           }

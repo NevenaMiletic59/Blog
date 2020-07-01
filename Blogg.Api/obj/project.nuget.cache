@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+Bi0eCAWNGdh268vKfTsNFN1hDe/eG0y3VVbOs0tIvPd5QAczeN0Opq7TAaZtUlxfkaJSxmbnNNGKHWkN5YQAQ==",
+  "dgSpecHash": "3ulqmN/CWv5vdx8d2RlEkQxyd5GHjxmv7Qzxf4But6oL6ivLPoLhs+vMtDVF9QsB0siIUay0YNo96PxGxq27Zw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sasa\\source\\repos\\Blog\\Blogg.Api\\Blogg.Api.csproj",
+  "projectFilePath": "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blogg.Api\\Blogg.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sasa\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Sasa\\.nuget\\packages\\easyencrypt\\2.2.0.1\\easyencrypt.2.2.0.1.nupkg.sha512",

@@ -2,7 +2,7 @@
 using Blog.Domain;
 using Microsoft.EntityFrameworkCore;
 using System.Text;
-
+using Blog.DataAccess.Configuration;
 
 namespace Blog.DataAccess
 {
@@ -20,6 +20,24 @@ namespace Blog.DataAccess
         {
             optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-EHVA6JF\SQLEXPRESS01;Initial Catalog=Blog;Integrated Security=True");
             base.OnConfiguring(optionsBuilder);
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+
+
+
+            base.OnModelCreating(modelBuilder);
+
+
+
+            modelBuilder.ApplyConfiguration(new CategoryConfiguration());
+            modelBuilder.ApplyConfiguration(new CommentConfiguration());
+            modelBuilder.ApplyConfiguration(new MenuConfiguration());
+            modelBuilder.ApplyConfiguration(new PictureConfiguration());
+            modelBuilder.ApplyConfiguration(new PostConfiguration());
+            modelBuilder.ApplyConfiguration(new UserConfiguration());
+
         }
     }
 
