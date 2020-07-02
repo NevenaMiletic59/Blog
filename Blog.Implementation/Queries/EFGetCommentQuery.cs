@@ -13,6 +13,12 @@ namespace Blog.Implementation.Queries
     public class EFGetCommentQuery : IGetCommentQuery
     {
         private readonly BlogContext _context;
+
+        public EFGetCommentQuery(BlogContext context)
+        {
+            _context = context;
+        }
+
         public int Id =>13;
 
         public string Name => "Get comments";

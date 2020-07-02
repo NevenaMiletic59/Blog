@@ -17,6 +17,12 @@ namespace Blog.Implementation.Commands
     public class EFGetPostQuery : IGetPostQuery
     {
         private readonly BlogContext _context;
+
+        public EFGetPostQuery(BlogContext context)
+        {
+            _context = context;
+        }
+
         public int Id => 4;
 
         public string Name => "Get  posts";

@@ -12,6 +12,12 @@ namespace Blog.Implementation.Queries
     public class EFGetMenuQuery : IGetMenuQuery
     {
         private readonly BlogContext _context;
+
+        public EFGetMenuQuery(BlogContext context)
+        {
+            _context = context;
+        }
+
         public int Id => 12;
 
         public string Name => "Get menus";

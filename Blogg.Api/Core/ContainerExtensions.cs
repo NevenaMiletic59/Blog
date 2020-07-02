@@ -6,6 +6,7 @@ using Blog.DataAccess;
 using Blog.Implementation.Commands;
 using Blog.Implementation.Email;
 using Blog.Implementation.Logging;
+using Blog.Implementation.Queries;
 using Blog.Implementation.Validators;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Http;
@@ -45,6 +46,12 @@ namespace Blogg.Api.Core
             services.AddTransient<IDeletePictureCommand, EFDeletePictureCommand>();
             services.AddTransient<IEmailSender, SMtpEmailSender>();
             services.AddTransient<IEditPostCommand, EFEditPostCommand>();
+            services.AddTransient<IGetCategoriesQuery, EFGetCategoryQuery>();
+            services.AddTransient<IGetCommentQuery, EFGetCommentQuery>();
+            services.AddTransient<IGetMenuQuery, EFGetMenuQuery>();
+         
+            services.AddTransient<IGetPostQuery, EFGetPostQuery>();
+           
 
             services.AddTransient<CreateUserValidator>();
             services.AddTransient<RegisterUserValidator>();
