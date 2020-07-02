@@ -33,8 +33,8 @@ namespace Bloog.Api.Controllers
         }
 
         // GET: api/User/5
-        [HttpGet("/users/GetOneUser/{id}", Name = "GetUsers")]
-        public IActionResult GetOneUser(int id, [FromQuery] IGetOneUserQuery query)
+        [HttpGet("{id}", Name = "GetUsers")]
+        public IActionResult GetOneUser(int id, [FromServices] IGetOneUserQuery query)
         {
             return Ok(executor.ExecuteQuery(query, id));
         }

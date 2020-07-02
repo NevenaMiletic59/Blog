@@ -32,8 +32,8 @@ namespace Blogg.Api.Controllers
         }
 
         // GET: api/Comment/5
-        [HttpGet("/comments/getOneComment/{id}", Name = "GetComment")]
-        public IActionResult GetOneComment(int id,[FromQuery] IGetOneCommentQuery query)
+        [HttpGet("{id}", Name = "GetComment")]
+        public IActionResult GetOneComment(int id,[FromServices] IGetOneCommentQuery query)
         {
             return Ok(executor.ExecuteQuery(query, id));
         }

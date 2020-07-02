@@ -32,8 +32,8 @@ namespace Blogg.Api.Controllers
         }
 
         // GET: api/Menu/5
-        [HttpGet("/menu/getOneMenu/{id}", Name = "GetMenu")]
-        public IActionResult GetOneMenu(int id,[FromQuery] IGetOneMenuQuery query)
+        [HttpGet("{id}", Name = "GetMenu")]
+        public IActionResult GetOneMenu(int id,[FromServices] IGetOneMenuQuery query)
         {
             return Ok(executor.ExecuteQuery(query, id));
         }

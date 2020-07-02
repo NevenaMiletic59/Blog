@@ -43,10 +43,10 @@ namespace Blogg.Api.Controllers
         }
 
         // GET: api/Post/5
-        [HttpGet("/post/onee/{id}", Name = "GetPost")]
-        public string GetOnePost(int id)
+        [HttpGet("{id}", Name = "GetPost")]
+        public IActionResult GetOnePost(int id,[FromServices] IGetOnePostQuery query)
         {
-            return "value";
+            return Ok(executor.ExecuteQuery(query, id));
         }
         public class AddPost
         {
