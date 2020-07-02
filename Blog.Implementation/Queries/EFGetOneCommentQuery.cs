@@ -12,6 +12,12 @@ namespace Blog.Implementation.Queries
     public class EFGetOneCommentQuery : IGetOneCommentQuery
     {
         private readonly BlogContext _context;
+
+        public EFGetOneCommentQuery(BlogContext context)
+        {
+            _context = context;
+        }
+
         public int Id => 14;
 
         public string Name => "Get one comment";

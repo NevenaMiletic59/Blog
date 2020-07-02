@@ -22,9 +22,11 @@ namespace Blog.Implementation.Queries
 
         public string Name => "Get one user";
 
+        public BlogContext Context => _context;
+
         public UserDto Execute(int search)
         {
-            var user = _context.Users.Find(search);
+            var user = Context.Users.Find(search);
             if (user == null)
             {
                 throw new EntityNotFoundException(search, typeof(User));

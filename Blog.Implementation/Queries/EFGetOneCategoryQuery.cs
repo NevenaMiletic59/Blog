@@ -14,6 +14,12 @@ namespace Blog.Implementation.Queries
     public class EFGetOneCategoryQuery : IGetOneCategoryQuery
     {
         private readonly BlogContext _context;
+
+        public EFGetOneCategoryQuery(BlogContext context)
+        {
+            _context = context;
+        }
+
         public int Id => 9;
 
         public string Name => "Get one category" ;

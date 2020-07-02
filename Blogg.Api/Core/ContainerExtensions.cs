@@ -51,6 +51,7 @@ namespace Blogg.Api.Core
             services.AddTransient<IGetMenuQuery, EFGetMenuQuery>();
          
             services.AddTransient<IGetPostQuery, EFGetPostQuery>();
+            services.AddTransient<IGetOneCategoryQuery, EFGetOneCategoryQuery>();
            
 
             services.AddTransient<CreateUserValidator>();
