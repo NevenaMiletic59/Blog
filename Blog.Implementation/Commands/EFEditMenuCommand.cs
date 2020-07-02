@@ -12,6 +12,12 @@ namespace Blog.Implementation.Commands
     public class EFEditMenuCommand : IEditMenuCommand
     {
         private readonly BlogContext _context;
+
+        public EFEditMenuCommand(BlogContext context)
+        {
+            _context = context;
+        }
+
         public int Id => 16;
 
         public string Name => "Edit menu";

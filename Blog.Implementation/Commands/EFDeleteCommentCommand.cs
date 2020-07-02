@@ -11,6 +11,12 @@ namespace Blog.Implementation.Commands
     public class EFDeleteCommentCommand : IDeleteCommnetCommand
     {
         private readonly BlogContext _context;
+
+        public EFDeleteCommentCommand(BlogContext context)
+        {
+            _context = context;
+        }
+
         public int Id => 13;
 
         public string Name => "Delete comment";

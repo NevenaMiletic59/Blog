@@ -32,13 +32,14 @@ namespace Blog.Implementation.Queries
                 throw new EntityNotFoundException(search, typeof(Category));
             }
 
-            return new CategoryDto
+           var categori = new CategoryDto
             {
                 Id = category.Id,
                 Name = category.CategoryName
 
 
             };
+            return categori;
         }
     }
 }

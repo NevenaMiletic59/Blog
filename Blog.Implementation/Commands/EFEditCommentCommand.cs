@@ -12,6 +12,12 @@ namespace Blog.Implementation.Commands
     public class EFEditCommentCommand : IEditCommentCommand
     {
         private readonly BlogContext _context;
+
+        public EFEditCommentCommand(BlogContext context)
+        {
+            _context = context;
+        }
+
         public int Id => 15;
 
         public string Name => "Edit comment";

@@ -11,6 +11,12 @@ namespace Blog.Implementation.Commands
     public class EFCreateCommentCommand : ICreateCommentCommand
     {
         private readonly BlogContext _context;
+
+        public EFCreateCommentCommand(BlogContext context)
+        {
+            _context = context;
+        }
+
         public int Id => 13;
 
         public string Name => "Creating comment";

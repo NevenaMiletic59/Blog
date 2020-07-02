@@ -33,7 +33,7 @@ namespace Blogg.Api.Controllers
 
         // GET: api/Category/5
         [HttpGet("/category/get/{id}", Name = "GetCategory")]
-        public IActionResult GetOneCategory(int id, [FromQuery] IGetOneCategoryQuery query)
+        public IActionResult GetOneCategory(int id, [FromServices] IGetOneCategoryQuery query)
         {
             return Ok(executor.ExecuteQuery(query, id));
         }

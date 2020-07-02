@@ -11,6 +11,12 @@ namespace Blog.Implementation.Commands
     public class EFDeleteMenuCommand : IDeleteMenuCommand
     {
         private readonly BlogContext _context;
+
+        public EFDeleteMenuCommand(BlogContext context)
+        {
+            _context = context;
+        }
+
         public int Id => 11;
 
         public string Name => "Delete menu";
