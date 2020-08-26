@@ -18,7 +18,7 @@ namespace Blog.Implementation.Queries
             _context = context;
         }
 
-        public int Id => 12;
+        public int Id => 13;
 
         public string Name => "Get one menu";
 

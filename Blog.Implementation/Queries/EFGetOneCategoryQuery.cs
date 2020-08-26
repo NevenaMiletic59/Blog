@@ -20,7 +20,7 @@ namespace Blog.Implementation.Queries
             _context = context;
         }
 
-        public int Id => 9;
+        public int Id => 10;
 
         public string Name => "Get one category" ;
 

@@ -7,6 +7,7 @@ using Blog.Application.Commands;
 using Blog.Application.DataTransfer;
 using Blog.Application.Exeptions;
 using Blog.Application.Queries;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -26,6 +27,7 @@ namespace Bloog.Api.Controllers
         }
 
         // GET: api/User
+        [Authorize]
         [HttpGet]
         public IActionResult GetUser()
         {
@@ -33,6 +35,7 @@ namespace Bloog.Api.Controllers
         }
 
         // GET: api/User/5
+        [Authorize]
         [HttpGet("{id}", Name = "GetUsers")]
         public IActionResult GetOneUser(int id, [FromServices] IGetOneUserQuery query)
         {
@@ -40,6 +43,7 @@ namespace Bloog.Api.Controllers
         }
 
         // POST: api/User
+        [Authorize]
         [HttpPost]
         public void Post([FromBody] UserDto dto, [FromServices] ICreateUserCommand command)
         {
@@ -47,6 +51,7 @@ namespace Bloog.Api.Controllers
         }
 
         // PUT: api/User/5
+        [Authorize]
         [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody] UserDto dto, [FromServices] IEditUserCommand command)
         {
@@ -56,6 +61,7 @@ namespace Bloog.Api.Controllers
         }
 
         // DELETE: api/ApiWithActions/5
+        [Authorize]
         [HttpDelete("{id}")]
         public IActionResult Delete(int id, [FromServices] IDeleteUserCommand command)
         {

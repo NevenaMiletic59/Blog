@@ -12,5 +12,6 @@ namespace Blog.Application.DataTransfer
         [Required]
         [MinLength(3)]
         public string Comment { get; set; }
+        
     }
 }

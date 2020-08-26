@@ -7,6 +7,7 @@ using Blog.Application.Commands;
 using Blog.Application.DataTransfer;
 using Blog.Application.Queries;
 using Blog.Application.Search;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -25,7 +26,9 @@ namespace Blogg.Api.Controllers
             this.actor = actor;
         }
         // GET: api/Category
+        
         [HttpGet]
+        
         public IActionResult GetCategory([FromQuery] CategorySearch search, [FromServices] IGetCategoriesQuery query)
         {
             return Ok(executor.ExecuteQuery(query, search));
@@ -39,6 +42,7 @@ namespace Blogg.Api.Controllers
         }
 
         // POST: api/Category
+        [Authorize]
         [HttpPost]
         public void Post([FromBody] CategoryDto dto,[FromServices]ICreateCategoryCommand command)
         {
@@ -46,6 +50,7 @@ namespace Blogg.Api.Controllers
         }
 
         // PUT: api/Category/5
+        [Authorize]
         [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody] CategoryDto dto, [FromServices] IEditCategoryCommand command)
         {
@@ -55,6 +60,7 @@ namespace Blogg.Api.Controllers
         }
 
         // DELETE: api/ApiWithActions/5
+        [Authorize]
         [HttpDelete("{id}")]
         public IActionResult Delete(int id,[FromServices] IDeleteCategoryCommand command)
         {

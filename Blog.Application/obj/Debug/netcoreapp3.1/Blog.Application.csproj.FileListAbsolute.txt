@@ -11,8 +11,8 @@ C:\Users\Sasa\Desktop\BlogAsp\Blog\Blog.Application\bin\Debug\netcoreapp3.1\Blog
 C:\Users\Sasa\Desktop\BlogAsp\Blog\Blog.Application\bin\Debug\netcoreapp3.1\Blog.Application.dll
 C:\Users\Sasa\Desktop\BlogAsp\Blog\Blog.Application\bin\Debug\netcoreapp3.1\Blog.Application.pdb
 C:\Users\Sasa\Desktop\BlogAsp\Blog\Blog.Application\obj\Debug\netcoreapp3.1\Blog.Application.csprojAssemblyReference.cache
-C:\Users\Sasa\Desktop\BlogAsp\Blog\Blog.Application\obj\Debug\netcoreapp3.1\Blog.Application.csproj.CoreCompileInputs.cache
 C:\Users\Sasa\Desktop\BlogAsp\Blog\Blog.Application\obj\Debug\netcoreapp3.1\Blog.Application.AssemblyInfoInputs.cache
 C:\Users\Sasa\Desktop\BlogAsp\Blog\Blog.Application\obj\Debug\netcoreapp3.1\Blog.Application.AssemblyInfo.cs
 C:\Users\Sasa\Desktop\BlogAsp\Blog\Blog.Application\obj\Debug\netcoreapp3.1\Blog.Application.dll
 C:\Users\Sasa\Desktop\BlogAsp\Blog\Blog.Application\obj\Debug\netcoreapp3.1\Blog.Application.pdb
+C:\Users\Sasa\Desktop\BlogAsp\Blog\Blog.Application\obj\Debug\netcoreapp3.1\Blog.Application.csproj.CoreCompileInputs.cache

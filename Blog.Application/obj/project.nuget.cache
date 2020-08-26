@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "+4W9Ta7B33HZEuwOvMKHNIRsQXUDKE7lL0uiMV2+RHaTbEw2Ijgqy7YIP83Wk37pPbg98TAnq3H8pvLRnKzxsA==",
+  "dgSpecHash": "TO6beCUmCcSMppC/lVSHbuctMjwQ/bEG3urI5bGZ4USACwEWEdsZE+MHwS13/u/3PRWEO7/Ut7czYwhCHY1sxw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Sasa\\Desktop\\BlogAsp\\Blog\\Blog.Application\\Blog.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Sasa\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+    "C:\\Users\\Sasa\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.7\\microsoft.aspnetcore.http.features.3.1.7.nupkg.sha512",
+    "C:\\Users\\Sasa\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.7\\microsoft.extensions.primitives.3.1.7.nupkg.sha512",
+    "C:\\Users\\Sasa\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Sasa\\.nuget\\packages\\system.io.pipelines\\4.7.1\\system.io.pipelines.4.7.1.nupkg.sha512"
   ],
   "logs": []
 }

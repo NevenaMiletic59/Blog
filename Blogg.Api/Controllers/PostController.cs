@@ -63,8 +63,9 @@ namespace Blogg.Api.Controllers
         }
 
         // POST: api/Post
-        [HttpPost]
         [Authorize]
+        [HttpPost]
+        
         public IActionResult Post([FromForm] AddPost p ) 
         {
             var ext = Path.GetExtension(p.Image.FileName);
@@ -105,6 +106,7 @@ namespace Blogg.Api.Controllers
         }
 
         // PUT: api/Post/5
+        [Authorize]
         [HttpPut("{id}")]
         public IActionResult Put(int id, [FromForm] AddPost p)
         {
@@ -147,6 +149,7 @@ namespace Blogg.Api.Controllers
         }
 
         // DELETE: api/ApiWithActions/5
+        [Authorize]
         [HttpDelete("{id}")]
         public IActionResult Delete(int id, [FromServices] IDeletePostComman command)
         {

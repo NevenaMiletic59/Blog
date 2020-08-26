@@ -65,6 +65,7 @@ namespace Blogg.Api.Core
             services.AddTransient<DeleteCategoryValidator>();
             services.AddTransient<CreatePictureValidator>();
             services.AddTransient<DeletePictureValidator>();
+            services.AddTransient<CreateCommentValidator>();
         
 
         }
@@ -73,10 +74,7 @@ namespace Blogg.Api.Core
             services.AddTransient<IApplicationActor>(x =>
             {
                 var accessor = x.GetService<IHttpContextAccessor>();
-                //izvuci token
-                //pozicionirati se na payload
-                //izvuci ActorData claim
-                //Deserijalizovati actorData string u c# objekat
+
 
                 var user = accessor.HttpContext.User;
 

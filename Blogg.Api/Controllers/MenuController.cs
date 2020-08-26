@@ -7,11 +7,13 @@ using Blog.Application.Commands;
 using Blog.Application.DataTransfer;
 using Blog.Application.Queries;
 using Blog.Application.Search;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Blogg.Api.Controllers
 {
+    
     [Route("api/[controller]")]
     [ApiController]
     public class MenuController : ControllerBase
@@ -26,12 +28,14 @@ namespace Blogg.Api.Controllers
         }
         // GET: api/Menu
         [HttpGet]
+       
         public IActionResult GetMenues([FromQuery] MenuSearch search, [FromServices] IGetMenuQuery query)
         {
             return Ok(executor.ExecuteQuery(query, search));
         }
 
         // GET: api/Menu/5
+        [Authorize]
         [HttpGet("{id}", Name = "GetMenu")]
         public IActionResult GetOneMenu(int id,[FromServices] IGetOneMenuQuery query)
         {
@@ -39,6 +43,7 @@ namespace Blogg.Api.Controllers
         }
 
         // POST: api/Menu
+        [Authorize]
         [HttpPost]
         public void Post([FromBody] MenuDto dto,[FromServices] ICreateMenuCommand command)
         {
@@ -46,6 +51,7 @@ namespace Blogg.Api.Controllers
         }
 
         // PUT: api/Menu/5
+        [Authorize]
         [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody] MenuDto dto,[FromServices] IEditMenuCommand command)
         {
@@ -55,6 +61,7 @@ namespace Blogg.Api.Controllers
         }
 
         // DELETE: api/ApiWithActions/5
+        [Authorize]
         [HttpDelete("{id}")]
         public IActionResult Delete(int id, [FromServices] IDeleteMenuCommand command)
         {

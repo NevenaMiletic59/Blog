@@ -7,6 +7,7 @@ using Blog.Application.Commands;
 using Blog.Application.DataTransfer;
 using Blog.Application.Queries;
 using Blog.Application.Search;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -25,6 +26,7 @@ namespace Blogg.Api.Controllers
             this.actor = actor;
         }
         // GET: api/Comment
+        [Authorize]
         [HttpGet]
         public IActionResult GetComment([FromQuery] CommentSearch search,[FromServices] IGetCommentQuery query)
         {
@@ -32,6 +34,7 @@ namespace Blogg.Api.Controllers
         }
 
         // GET: api/Comment/5
+        [Authorize]
         [HttpGet("{id}", Name = "GetComment")]
         public IActionResult GetOneComment(int id,[FromServices] IGetOneCommentQuery query)
         {
@@ -39,6 +42,7 @@ namespace Blogg.Api.Controllers
         }
 
         // POST: api/Comment
+        [Authorize]
         [HttpPost]
         public void Post([FromBody] InsertCommentDto dto,[FromServices] ICreateCommentCommand command)
         {
@@ -46,6 +50,7 @@ namespace Blogg.Api.Controllers
         }
 
         // PUT: api/Comment/5
+        [Authorize]
         [HttpPut("{id}")]
         public IActionResult Put(int id, [FromBody] CommentDto dto,[FromServices] IEditCommentCommand command)
         {
@@ -55,6 +60,7 @@ namespace Blogg.Api.Controllers
         }
 
         // DELETE: api/ApiWithActions/5
+        [Authorize]
         [HttpDelete("{id}")]
         public IActionResult Delete(int id,[FromServices] IDeleteCommnetCommand command)
         {
